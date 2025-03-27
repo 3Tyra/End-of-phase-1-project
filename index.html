@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime Finder App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">   
+            
+            <h1 id="anime-title"> Naruto Anime Finder App</h1>
+            <p id="Current-info">Naruto is a popular Japanese anime and manga series created by Masashi Kishimoto. It follows the story of Naruto Uzumaki, a young ninja with dreams of becoming the strongest leader, known as the Hokage, of his village. Despite being an outcast due to the powerful Nine-Tails Fox sealed within him, Naruto strives to gain the respect of others and protect his friends. The series explores themes of friendship, perseverance, and overcoming personal challenges while showcasing intense action-packed battles and deep character development.
+            </p>
+        </div>
+
+       
+        <div class="anime-search">
+            <input type="text" id="search-input" placeholder="Search for anime">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+    
+    <div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Series</a>
+            <a href="#">Top Series</a>
+            <a href="#">Most Popular</a>
+            <a href="#">Top Airing</a>
+        </nav>
+    </div>
+
+    
+    <div class="filters">
+        <select id="genre-filter">
+            <option value="">Select Genre</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="shounen"> Shounen</option>
+        </select>
+        <button id="sort-btn">Sort by Rating</button>
+    </div>
+
+    <div id="anime-list"></div>
+
+    
+    <div id="anime-details"></div>
+
+    <script src="js/index.js"></script>
+
+   
+    <footer>
+        <p id="details">Follow us on <i class="fa-solid fa-xmark"></i></p> 
+    </footer>
+</body>
+</html>
