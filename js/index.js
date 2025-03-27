@@ -14,3 +14,9 @@ searchBtn.addEventListener('click', () => {
 });
 
 
+genreFilter.addEventListener('change', () => {
+    const genre = genreFilter.value;
+    filterByGenre(genre);
+});
+
+
