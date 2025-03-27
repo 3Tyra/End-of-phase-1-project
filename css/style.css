@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background: #14141f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 100px;
+    position: relative;
+    height: 700px;
+    width: 1400px;
+    background-image: url(../assets/_.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+
+nav a {
+    background-color: purple;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+
+nav a:hover {
+    background-color:black;
+    transform: scale(1.2); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+nav a:hover,
+nav a.active {
+    color: #ff67d5;
+}
+
+p#Current-info{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:purple;
+    margin-bottom: 60px;
+    height: 30px;
+    width: 600px;
+}
+
+
+
