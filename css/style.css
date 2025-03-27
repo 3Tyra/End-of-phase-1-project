@@ -152,3 +152,50 @@ h1#anime-title {
     border: 1px solid white;
   }
 
+#search-btn{
+    width: 60px;
+    height: 60px;
+}
+.anime-search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #ff67d5;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#anime-list {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
