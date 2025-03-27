@@ -19,4 +19,8 @@ genreFilter.addEventListener('change', () => {
     filterByGenre(genre);
 });
 
+sortBtn.addEventListener('click', () => {
+    sortByRating();
+});
+
 
