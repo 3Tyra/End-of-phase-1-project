@@ -75,3 +75,21 @@ p#Current-info{
 
 
 
+h1#anime-title {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
+}
+
+
+
+#anime-title:hover {
+    transform: scale(1.1);
+}
+
+
