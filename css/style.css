@@ -22,7 +22,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -46,7 +45,7 @@ nav a {
     padding: 8px 15px;
     letter-spacing: 1px;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px;
     transition: all 0.3s ease;
 }
 
@@ -54,16 +53,11 @@ nav a {
 nav a:hover {
     background-color:black;
     transform: scale(1.2); 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 
-nav a:hover,
-nav a.active {
-    color: #ff67d5;
-}
 
-p#Current-info{
+#Current-info{
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -75,15 +69,14 @@ p#Current-info{
 
 
 
-h1#anime-title {
+.h1 {
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 100px;
     margin: 0;
     padding: 20px;
     color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
 }
 
 
@@ -99,14 +92,8 @@ h1#anime-title {
     border-radius: 10px;
     width: 200px;
     text-align: center;
-    box-shadow: 5px 5px 10px rgba(7, 87, 107, 0.322); 
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
-.anime-card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0px 30px 20px rgba(6, 84, 104, 0.795); 
-}
 
 .anime-card img {
     width: 100%;
@@ -123,12 +110,6 @@ h1#anime-title {
     padding: 20px;
     background: #1f1f2e;
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#anime-details:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 
