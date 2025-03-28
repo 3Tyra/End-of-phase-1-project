@@ -76,13 +76,23 @@ h1#anime-title {
     font-size: 70px;
     margin: 0;
     padding: 20px;
-    color: black;
+    color: blue;
 }
 
 
 
 #anime-title:hover {
     transform: scale(1.1);
+}
+
+h2{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    color: black;   
 }
 
 

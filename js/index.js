@@ -1,5 +1,3 @@
-baseUrl = 'https://end-of-phase1-project-backend.vercel.app'
-
 const searchBtn = document.getElementById('search-btn');
 const searchInput = document.getElementById('search-input');
 
