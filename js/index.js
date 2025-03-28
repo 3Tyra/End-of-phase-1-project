@@ -1,3 +1,5 @@
+baseUrl = 'https://end-of-phase-1-project-six.vercel.app'
+
 const searchBtn = document.getElementById('search-btn');
 const searchInput = document.getElementById('search-input');
 
