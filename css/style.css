@@ -13,7 +13,7 @@ header {
     position: relative;
     height: 700px;
     width: 1400px;
-    background-image: url();
+    background-image: url(https://img.youtube.com/vi/tA3yE4_t6SY/maxresdefault.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,11 +60,12 @@ nav a:hover {
 #Current-info{
     font-family: "Bangers", system-ui;
     font-weight: 400;
+    font-size: 20px;
     font-style: normal;
-    color:black;
-    margin-bottom: 60px;
-    height: 30px;
-    width: 600px;
+    color:white;
+    margin-bottom: 100px;
+    height: 20px;
+    width: 700px;
 }
 
 
