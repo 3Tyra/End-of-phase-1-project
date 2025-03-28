@@ -1,4 +1,4 @@
-baseUrl = 'https://end-of-phase-1-project-six.vercel.app'
+baseUrl = 'http://localhost:3000/data'
 
 const searchBtn = document.getElementById('search-btn');
 const searchInput = document.getElementById('search-input');
